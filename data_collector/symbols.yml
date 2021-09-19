@@ -1,0 +1,44 @@
+commodities: #fxcm
+  - XAU/USD #gold
+  - XAG/USD #silver
+  - USOil #wti light weight crude oil futire
+  - NGAS #natural gas
+  - Copper
+crypto: #coinbase
+  - BTC-USD
+  - ETH-USD
+forex: #fxcm
+  - EUR/USD
+  - EUR/AUD
+  - EUR/GBP
+  - USD/CHF
+  - USD/JPY
+  - USD/CAD
+  - GBP/USD
+  - GBP/AUD
+  - AUD/USD
+  - NZD/USD
+indexes: #fxcm
+  - GER30 #dax
+  - US30 #e-mini dow futures
+  - FRA40 #cac40 index future
+  - SPX500 #e-mini sp500 future
+  - JPN225 #nikkei 225 dolar future
+stocks: #us
+  - AAPL #apple
+  - AMZN #amazon
+  - BAC #bank of america
+  - GOOG #google
+  - GE #general eletric
+  - IBM #ibm
+  - MSFT #microsoft
+  - TSLA #tesla
+  - NVDA #nvidia
+  - DIS #disney
+  - COKE #cola-cola
+exchanges:
+  commodities: fxcm
+  crypto: coinbase
+  forex: fxcm
+  indexes: fxcm
+  stocks: us
